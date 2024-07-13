@@ -133,4 +133,37 @@ background: rgba(5, 151, 160, 0.15);
 
 background: rgba(71, 125, 17, 0.15);
 }
+
+@media screen and (max-width: 576px){
+    .banner-content{
+        flex-direction: column;
+        border: none;
+        height: auto;
+        margin: 0px;
+
+        
+    }
+    .banner-text-container{
+        width: auto;
+        padding: 0px;
+        height: 100%;
+    }
+    .banner-section-container{
+        background: none;
+        border: none;
+        margin-left: 0px;
+    }
+    .banner-text-container p{
+        padding: 20px;
+    }
+    .banner-image-container{
+        margin-bottom: 0px;
+    }
+    .banner-text-container button{
+        margin: 0px 0px;
+        margin-right: 200px;
+        width: 30%;
+    }
+
+}
     
